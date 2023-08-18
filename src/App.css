@@ -9,13 +9,18 @@
   box-sizing: border-box;
 }
 
-body{
-  color: white;
+html{
+  overflow-x: hidden;
 }
 
 #root {
   max-width: 1280px;
   margin: 0 auto;
   text-align: center;
+  background-color: #ffffff;
+}
+
+#mobile-menu{
+  background-color: #ffffff;
 }
 
