@@ -20,7 +20,11 @@ html{
   background-color: #ffffff;
 }
 
-#mobile-menu{
+.mobile-menu{
   background-color: #ffffff;
+}
+
+#mobile-menu{
+  display: none;
 }
 
