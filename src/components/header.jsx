@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import search from '../icons/magnifying-glass-solid.svg'
 import cart from '../icons/cart-shopping-solid.svg'
 import openMenu from '../icons/bars-solid.svg'
