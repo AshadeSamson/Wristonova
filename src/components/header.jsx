@@ -11,17 +11,17 @@ function Header({mobileNav, toggleNav}) {
             <div className='flex justify-between'>
               <h2 className='font-black text-2xl text-red-700 mr-6'>WRISTONOVA</h2>
               <div className='hidden md:block'>
-                <a className='text-zinc-700  hover:text-black mr-6'>Home</a>
-                <a className='text-zinc-700  hover:text-black mr-6'>Shop</a>
-                <a className='text-zinc-700  hover:text-black mr-6'>Features</a>
-                <a className='text-zinc-700  hover:text-black mr-6'>Reviews</a>
-                <a className='text-zinc-700 hover:text-black '>Contact Us</a>
+                <a className='text-zinc-700  hover:text-black mr-6 cursor-pointer'>Home</a>
+                <a className='text-zinc-700  hover:text-black mr-6 cursor-pointer'>Shop</a>
+                <a className='text-zinc-700  hover:text-black mr-6 cursor-pointer'>Features</a>
+                <a className='text-zinc-700  hover:text-black mr-6 cursor-pointer'>Reviews</a>
+                <a className='text-zinc-700 hover:text-black  cursor-pointer'>Contact Us</a>
               </div>
             </div>
             <div className='hidden md:flex'>
-                <a className='text-zinc-700 hover:text-black mr-8'>login</a>
-                <a><img className="w-6 h-auto mr-8 object-contain" src={search} alt="search" /></a>
-                <a><img className="w-6 h-auto object-contain" src={cart} alt="search" /></a>
+                <a className='text-zinc-700 hover:text-black mr-8 cursor-pointer'>login</a>
+                <a className='cursor-pointer'><img className="w-6 h-auto mr-8 object-contain" src={search} alt="search" /></a>
+                <a className='cursor-pointer'><img className="w-6 h-auto object-contain" src={cart} alt="search" /></a>
             </div>
             <div className='block md:hidden'>
               <a href="#" onClick={toggleNav}>{
