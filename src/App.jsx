@@ -1,6 +1,7 @@
-import {useState} from 'react'
-import './App.css'
-import Header from './components/header'
+import {useState} from 'react';
+import './App.css';
+import Header from './components/header';
+import Hero from './components/hero';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Header 
       mobileNav={mobileNav}
       toggleNav={toggleNav}/>
+      <Hero />
     </>
   )
 }

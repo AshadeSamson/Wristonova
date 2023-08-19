@@ -28,3 +28,34 @@ html{
   display: none;
 }
 
+.hero{
+  background-image: url(./images/watch_2.webp);
+  background-color: #353538;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  animation: herobg infinite ease-in-out;
+  animation-duration: 15s;
+}
+
+
+@keyframes herobg {
+  0%{
+    background-image: url(./images/watch_1.webp);
+  }
+  50%{
+    background-image: url(./images/watch_2.webp);
+  }
+  100%{
+    background-image: url(./images/watch_1.webp);
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .hero{
+    height: 70vh;
+  }
+  
+}
