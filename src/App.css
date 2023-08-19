@@ -3,6 +3,13 @@
 @tailwind utilities;
 
 
+@layer base {
+  html {
+    font-family: 'Merriweather Sans', system-ui, sans-serif;
+  }
+}
+
+
 *, *::before, *::after{
   margin: 0;
   padding: 0;
@@ -39,6 +46,10 @@ html{
   animation-duration: 15s;
 }
 
+.stroke{
+  -webkit-text-stroke: 2px #ffffff;
+}
+
 
 @keyframes herobg {
   0%{
@@ -56,6 +67,10 @@ html{
 
   .hero{
     height: 70vh;
+  }
+
+  .stroke{
+    -webkit-text-stroke: 1px #ffffff;
   }
   
 }
