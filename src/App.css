@@ -36,7 +36,7 @@ html{
 }
 
 .hero{
-  background-image: url(./images/watch_2.webp);
+  background-image: url(./images/watch_2.jpg);
   background-color: #353538;
   background-blend-mode: multiply;
   background-size: cover;
@@ -53,13 +53,13 @@ html{
 
 @keyframes herobg {
   0%{
-    background-image: url(./images/watch_1.webp);
+    background-image: url(./images/watch_1.jpg);
   }
   50%{
-    background-image: url(./images/watch_2.webp);
+    background-image: url(./images/watch_2.jpg);
   }
   100%{
-    background-image: url(./images/watch_1.webp);
+    background-image: url(./images/watch_1.jpg);
   }
 }
 
