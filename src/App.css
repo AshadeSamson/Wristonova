@@ -27,50 +27,5 @@ html{
   background-color: #ffffff;
 }
 
-.mobile-menu{
-  background-color: #ffffff;
-}
-
-#mobile-menu{
-  display: none;
-}
-
-.hero{
-  background-image: url(./images/watch_2.jpg);
-  background-color: #353538;
-  background-blend-mode: multiply;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 80vh;
-  animation: herobg infinite ease-in-out;
-  animation-duration: 15s;
-}
-
-.stroke{
-  -webkit-text-stroke: 2px #ffffff;
-}
 
 
-@keyframes herobg {
-  0%{
-    background-image: url(./images/watch_1.jpg);
-  }
-  50%{
-    background-image: url(./images/watch_2.jpg);
-  }
-  100%{
-    background-image: url(./images/watch_1.jpg);
-  }
-}
-
-@media screen and (max-width: 768px) {
-
-  .hero{
-    height: 70vh;
-  }
-
-  .stroke{
-    -webkit-text-stroke: 1px #ffffff;
-  }
-  
-}

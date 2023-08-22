@@ -2,6 +2,7 @@ import {useState} from 'react';
 import './App.css';
 import Header from './components/header';
 import Hero from './components/hero';
+import Slider from './components/slider';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       mobileNav={mobileNav}
       toggleNav={toggleNav}/>
       <Hero />
+      <Slider />
     </>
   )
 }

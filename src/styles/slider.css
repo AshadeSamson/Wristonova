@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  html {
+    font-family: 'Merriweather Sans', system-ui, sans-serif;
+  }
+}
+
+.brand{
+    width: 140px;
+    height: auto;
+    object-fit: cover;
+}

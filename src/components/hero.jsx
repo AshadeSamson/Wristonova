@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import '../styles/hero.css'
 
 
 function Hero() {

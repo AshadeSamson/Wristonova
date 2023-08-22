@@ -3,6 +3,7 @@ import search from '../icons/magnifying-glass-solid.svg'
 import cart from '../icons/cart-shopping-solid.svg'
 import openMenu from '../icons/bars-solid.svg'
 import closeMenu from '../icons/xmark-solid.svg'
+import '../styles/header.css'
 
 function Header({mobileNav, toggleNav}) {
   return (
