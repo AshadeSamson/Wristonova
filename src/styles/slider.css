@@ -10,7 +10,38 @@
 }
 
 .brand{
-    width: 140px;
+    width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+
+.slider{
+    height: 200px;
+    margin: auto;
+    position: relative;
+    display: grid;
+    place-items: center;
+    perspective: 50px;
+}
+
+.slide-track{
+    display: flex;
+    width: 100%;
+    animation: scroll 10s alternate-reverse infinite;
+}
+
+.slide{
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-180px * 11));
+    }
 }
