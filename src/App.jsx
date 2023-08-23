@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/header';
 import Hero from './components/hero';
 import Slider from './components/slider';
+import Hotdeals from './components/hotdeals';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       toggleNav={toggleNav}/>
       <Hero />
       <Slider />
+      <Hotdeals />
     </>
   )
 }
